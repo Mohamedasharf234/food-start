@@ -1,0 +1,280 @@
+html{
+    font-family:lato;
+    font-size:16px ;
+    color: #333;    
+}
+/* header */
+header{
+    min-height:100vh ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) ,url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height:100px ;
+    margin-top:20px ;
+    vertical-align: middle;
+    
+}
+.main-nav ,.footer-nav,.social-nav{
+    list-style: none;
+    display: flex;
+}
+.main-nav li,.footer-nav li,.social-nav li{
+    margin-right:30px ;
+}
+.main-nav li a, .footer-nav li a,.social-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size:18px ;
+}
+.main-nav li a:hover, .footer-nav li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.hero{
+    position: absolute;
+    top:40% ;
+}
+.hero h1{
+    color: white;
+    font-size:2rem ;
+    font-weight: 400;
+    line-height:150% ;
+    word-spacing:5px ;
+    letter-spacing:3px ;
+    text-transform: uppercase;
+    margin-bottom:30px ;
+}
+.hero a{
+    color:orange ;
+    text-decoration: none;
+    border:solid 1px orange ;
+    margin-right:20px ;
+    padding:8px 25px ;
+    border-radius:20px ;
+}
+.hero a:hover{
+    color: white;
+    background-color:orange ;
+}
+
+/* Features */
+section{
+    padding-top:50px ;
+    padding-bottom:50px ;
+}
+hr{
+    width:50% ;
+}
+h2{
+    font-size:1.5rem ;
+    font-weight: 700;
+    word-spacing:5px ;
+    letter-spacing:3px ;
+    text-transform: uppercase;
+    text-align: center;
+}
+hr{
+    width:100px ;
+    border:solid 2px orange ;
+    background-color:orange ;
+}
+.Fea-desc{
+    width:50% ;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-bottom:20px ;
+    line-height:150% ;
+}
+.feat{
+    text-align: center;
+}
+.feat h3{
+    font-weight: 400;
+}
+.feat p{
+    font-weight:300 ;
+    line-height:150% ;
+}
+.feat i{
+    color: orange;
+    font-size:36px ;
+}
+
+/* meals */
+.meal{
+    padding:0 ;
+    margin-bottom:-5px;
+    background-color: black;
+    overflow: hidden;
+}
+.meal img{
+    width:100% ;
+    opacity: 0.5 ;
+}
+.meal img:hover{
+    opacity:1 ;
+    transition:1S ;
+    transform: scale(1.1);
+}
+
+/* works */
+#Works{
+    background-color:#F4F4F4 ;
+    margin-top:-45px ;
+}
+.left-work{
+    text-align:right ;
+    padding-right: 50px;
+}
+.left-work img{
+    width:40% ;
+}
+
+.right-work{
+    padding-top:50px ;
+}
+.step{
+    display: flex;
+    align-items: center;
+    margin-bottom:50px ;
+}
+.step div{
+    width:50px ;
+    height:50px ;
+    color:orange ;
+    border: solid 2px orange;
+    border-radius:50% ;
+    margin-right:15px ;
+    text-align: center;
+    line-height:50px ;
+}
+.right-work a{
+    margin-right:20px ;
+    
+}
+.right-work img{
+    height: 50px;
+}
+
+/* cities */
+.city{
+    margin-top:40px ;
+}
+.city img{
+    width:100% ;
+}
+h3{
+    font-size:1.3rem ;
+    font-weight:400;
+    color: gray;
+    word-spacing:5px ;
+    letter-spacing:3px ;
+    text-transform: uppercase;
+}
+.city-info{
+    display: flex;
+    align-items: center;
+}
+.city-info i{
+    margin-right:15px ;
+    color: orange;
+    font-size:20px ;
+}
+.city a{
+    color: orange;
+    text-decoration:underline orange;
+}
+.city a:hover{
+    color: red;
+    text-decoration: underline red;
+}
+#customers{
+    background:linear-gradient(rgba(0, 0, 0, 0.804),rgba(0, 0, 0, 0.814)) ,url(../images/back-customers.jpg) ;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+/* customers */
+.cust{
+    margin-top:30px ;
+}
+.cust i{
+    font-size:50px ;
+}
+.cust p{
+    font-size:20px ;
+    font-weight: 300;
+    line-height:150%;
+}
+.cust img{
+    width:50px ;
+    height:50px ;
+    border-radius:50% ;
+    vertical-align: middle;
+    margin-right:10px ;
+}
+
+/* contacts */
+
+form{
+    padding-top:50px ;
+
+}
+label{
+    font-weight: bold;
+    margin-bottom:10px ;
+
+}
+input[type=text] ,
+input[type=email],
+select,textarea
+{
+    margin-bottom:10px ;
+    width:100% ;
+    padding:5px ;
+    border:solid 1px gray ;
+    border-radius:5px ;
+}
+input[type=checkbox]{
+  margin-bottom:20px ;
+}
+
+form button{
+    padding:10px 30px ;
+    border:solid 1px orangered ;
+    background-color: orange;
+    color: white;
+    border-radius:20px ;
+}
+form button:hover{
+    background-color: white;
+    color: orange;
+}
+
+/* footer */
+footer{
+    background-color: #333;
+    padding:40px 0px  ;
+}
+footer p{
+    color: #ccc;;
+    text-align: center;
+    margin-top:30px ;
+}
+.row{
+    align-items: center;
+}
+.social-nav{
+    float:right ;
+}
+
